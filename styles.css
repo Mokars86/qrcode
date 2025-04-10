@@ -1,0 +1,49 @@
+body, html{
+    padding:0;
+    margin:0;
+    height: 100%
+}
+
+.container{
+    display: flex;
+    background-color: hsl(212, 45%, 89%);
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+
+}
+
+.content{
+    background-color:hsl(0, 0%, 100%);
+    text-align: center;
+    padding:1rem;
+    border-radius: 15px;
+    width: 200px;
+}
+
+.logo{
+    width:200px;
+    object-fit: contain;
+    border-radius: 15px;
+}
+
+#title{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 17px; 
+    padding: 5px;
+    font-weight:700;
+}
+
+p{
+    font-size: 13px;
+    color: hsl(212, 45%, 89%);
+    padding: 5px;
+    font-weight: 400;
+    
+}
+
+
+.attribution{ 
+    font-size: 11px; text-align: center; }
+.attribution a { 
+    color: hsl(228, 45%, 44%); }
